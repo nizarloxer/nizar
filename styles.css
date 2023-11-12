@@ -1,0 +1,182 @@
+/* Navigation menu */
+.container {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  margin: 0 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #fff;
+}
+
+/* Word container */
+#word-container {
+  margin-top: 20px;
+}
+
+#word {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+#options-container {
+
+  margin-top: 10px;
+}
+
+button {
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  text-align: center;
+  background-color: #eee;
+}
+
+#userInput {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#nextLevel {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #00f;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Custom colors */
+
+body {
+  text-align: center;
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+}
+  
+
+h1 {
+  color: #000;
+}
+
+p {
+  color: #000;
+}
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+  .container {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  ul {
+    display: block;
+  }
+
+  li {
+    display: block;
+    margin: 0;
+  }
+
+  a {
+    width: 100%;
+  }
+}
+/* Add styles for the search container */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+#search-container {
+  text-align: center;
+  margin: 20px;
+}
+
+#searchInput {
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+/* Add any other styles as needed */
+.menu{
+  width: 400 px;
+  float: left;
+  height: 70px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: arial;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: orange;
+}
